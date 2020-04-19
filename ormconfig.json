@@ -1,0 +1,12 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "localhost",
+  "port": "5432",
+  "username": "postgres",
+  "password": "12345678",
+  "database": "graphql_test_01",
+  "synchronize": true,
+  "logging": true,
+  "entities": ["src/entity/*.*"]
+}
